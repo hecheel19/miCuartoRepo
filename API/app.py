@@ -34,3 +34,9 @@ def get_starwars_warriors():
 def get_warriors_got():
     rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
     return rows
+
+
+@app.get("/people")
+def get_people():
+    rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
+    return rows
